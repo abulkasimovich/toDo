@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Todo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>📋 My Todo List</h1>
+
+  <div class="add-box">
+    <input type="text" id="todoInput" placeholder="Add new...">
+    <button id="addBtn">+ Add</button>
+  </div>
+
+  <input type="text" id="searchInput" placeholder="🔍 Search..." class="search">
+
+  <ul id="todoList"></ul>
+
+  <div class="controls">
+    <button id="setAllActive">Set All Active</button>
+    <button id="setAllCompleted">Set All Completed</button>
+    <button id="clearCompleted">Clear Completed</button>
+    <button id="clearAll">Clear All</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
